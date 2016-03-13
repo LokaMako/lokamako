@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'static_pages/home'
+
   resources :buyers
   resources :inventories
   resources :producers
